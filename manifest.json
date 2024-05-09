@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Table Data Downloader",
+  "version": "1.0",
+  "description": "Downloads table data from the active tab as CSV",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
